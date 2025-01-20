@@ -5,7 +5,8 @@ def main():
     time = int(input())
     avg_speed = int(input())
 
-    a = (avg_speed * time) / 12
+    fuel = (avg_speed * time) / 12
 
-    print(f'{a:.3f}')
+    print(f'{fuel:.3f}')
+    
 main()    
